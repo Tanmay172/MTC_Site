@@ -168,12 +168,12 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 70px;
 }
 
 @media (max-width: 992px) {
   #header #logo img {
-    max-height: 30px;
+    max-height: 20px;
   }
 }
 
@@ -650,7 +650,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
-
+  height : 700px;
 }
 
 @media (min-width: 1024px) {
@@ -687,10 +687,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about p {
-  font-size: 14px;
+  font-size: 19px;
   margin-bottom: 20px;
   color: #fff;
 }
+#about .container .row .col-lg-6 p{
+	position : fixed;
+	padding-left : 450px;
+	top : 120px;
+				}
+#about .container .row .col-lg-6 img {
+	width : 400px;
+				     }
+#about .container .row .col-lg-3 img{
+	position : fixed;
+	left : 900px;
+	top : 300px;
+	width : 400px;
+				}
+#about .container .row .col-lg-3 p{
+	position : fixed;
+	left : 500px;
+	top : 380px;
+				}
 
 /*--------------------------------------------------------------
 # Speakers Section
