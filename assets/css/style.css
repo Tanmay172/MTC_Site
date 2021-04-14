@@ -1342,6 +1342,10 @@ background: rgba(255, 255, 255, 0.5);
 #buy-tickets #buy-ticket-modal .btn:hover {
   background-color: #e0072f;
 }
+#buy-tickets .row {
+	margin-left : 450px;
+	width : 1200px;
+	}
 
 /*--------------------------------------------------------------
 # Contact Section
